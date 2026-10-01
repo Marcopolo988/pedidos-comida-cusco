@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos Comida Cusco</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background: #fff7ed;
+            color: #431407;
+            line-height: 1.6;
+        }
+        header {
+            background: #c2410c;
+            color: #fff;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        header h1 { font-size: 2rem; }
+        header p { opacity: 0.9; margin-top: 0.5rem; }
+        main { max-width: 720px; margin: 2rem auto; padding: 0 1rem; }
+        .menu { display: grid; gap: 1rem; margin-top: 1rem; }
+        .plato {
+            background: #fff;
+            border: 1px solid #fed7aa;
+            border-radius: 12px;
+            padding: 1rem 1.25rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .plato strong { display: block; }
+        .plato span { color: #9a3412; font-weight: bold; }
+        footer { text-align: center; padding: 2rem 1rem; color: #9a3412; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🍽️ Pedidos Comida Cusco</h1>
+        <p>Tu comida local favorita, a un clic de distancia</p>
+    </header>
+    <main>
+        <h2>Menú del día</h2>
+        <div class="menu">
+            <div class="plato"><div><strong>Chairo cusqueño</strong>Sopa tradicional andina</div><span>S/ 12</span></div>
+            <div class="plato"><div><strong>Lomo saltado</strong>Con papas fritas y arroz</div><span>S/ 18</span></div>
+            <div class="plato"><div><strong>Chicharrón de cerdo</strong>Con mote y ensalada</div><span>S/ 20</span></div>
+            <div class="plato"><div><strong>Cuy al horno</strong>Plato típico cusqueño</div><span>S/ 35</span></div>
+        </div>
+    </main>
+    <footer>
+        <p>Cusco, Perú</p>
+    </footer>
+</body>
+</html>
